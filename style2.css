@@ -1,0 +1,13 @@
+body{padding: 0px;margin: 0px;}
+.para1{font-size:40px;font-style: italic;position: fixed;top: 0px;color: red;}
+.div1{font-style: oblique;}
+.para1{font-size:30pt; font-style: inherit; font-weight: bold; line-height: 45px;
+padding: 10px;margin: 10px;}
+.para2{color: rgba(120,200,50,0.9); opacity:0.9;height:100px;width: 400px;border-width: 2px;border-style:double;border-color: blue;
+border-top-right-radius: 20px;border-bottom-right-radius: 30px;padding-left: 20px;margin-left: 40px;
+box-shadow:2px 3px 4px red inset;position: relative;top: 10px;}
+.para3{text-decoration: none;text-indent: -20px; text-transform: lowercase;word-spacing: 15px;
+padding-left: 20px;margin-left: 40px}
+.para4{color: #22ff44; text-align: justify;text-decoration:none; letter-spacing: 10px;
+border-left-width: 10px;border-left-style: solid;border-left-color: gray;
+clear: both;position: absolute;top: 0px;right: 0px;}

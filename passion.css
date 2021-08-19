@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@300;400;500;600 & display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family : 'Raleway', sans-serif ;
+}
+header{
+    background-image: url(miniprojet/wif.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: #fff;
+    text-align: center;
+    
+}
+header nav{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+header nav a{
+    color: rgb(54, 168, 212);
+    text-decoration: none;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: rgb(226, 172, 23);
+    border-bottom: 1px solid rgb(54, 168, 212);
+}
+header .principal h4{
+    margin-top: -20px;
+    padding: 20px;
+}
+.premier{
+    background-color: rgb(41, 65, 75);
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+     padding: 30px;
+}
+.premier .gauche{
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.offres{
+    padding: 30px;
+    background-image: url(miniprojet/big1.jpg);
+    background-position: center;
+    background-size: cover;
+    color:rgb(119, 228, 222);
+}
+.offres .offres-cartes{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.offres .offres-cartes .carte{
+    background-color:rgb(231, 216, 173);
+    color: rgb(54, 168, 212);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+.offres h1,
+.offres p{
+    text-align: center;
+}
+.partenaires{
+    background-color: rgb(95, 130, 145);
+    padding: 20px;
+}
+.partenaires h1{
+    text-align: center;
+    color: rgb(226, 172, 23);
+}
+.partenaires .partenaires-images{
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.partenaires .partenaires-images p{
+    margin-right: 30px;
+}
+.partenaires .partenaires-images p img{
+    height: 100px;
+}
+footer{
+    background-color:rgb(41, 65, 75);
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .social{
+    display: flex;
+}
+footer .social p{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+}
+@media screen and (max-width: 810px) {
+    .premier .gauche{
+        width: 100%;
+    }
+    .premier .droite{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    
+}
